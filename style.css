@@ -10,10 +10,14 @@
     margin: 0px;
     padding: 0px;
 }
+.text-center{
+    text-align: center;
+}
 .navbar{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 38px;
+    margin: 38px 0;
+    align-items: center;
 }
 .navbar h3{
     font-size: 28px;
@@ -27,4 +31,59 @@
     padding: 24px 17px;
     font-size: 20px;
     font-weight: 600;
+    cursor: pointer;
+}
+.navbar .btn:hover{
+    background-color: #0D1321;
+    color: #ffffff;
+}
+.banner{
+    background-image: url(./assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 652px;
+    width: 100%;
+
+}
+.banner-content{
+    width: 998px;
+    margin: auto;
+    
+}
+.banner-content .banner-image img{
+    margin-top: 40px;
+}
+.banner-content .banner-head{
+    font-size: 48px;
+    font-weight:800 ;
+    color: #0D1321;
+    padding-top: 32px;
+    padding-bottom: 24px;
+}
+.banner-content .banner-description{
+    font-size: 16px;
+    color: #0D1321;
+    padding-bottom: 24px;
+}
+.banner-content .banner-btn{
+    margin-top: 32px;
+}
+.banner-content .banner-btn a{
+    text-decoration: none;
+    background-color: #0D1321;
+    color: #ffffff;
+    padding: 24px 21px ;
+    border: 1px solid #0D1321;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.banner-content .banner-btn a:hover{
+    background-color: #ffffff;
+    color: #0D1321;
+}
+/* main part */
+.main-width{
+    max-width: 1140px;
 }
