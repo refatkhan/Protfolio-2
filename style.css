@@ -164,3 +164,28 @@
     opacity: 70%;
     padding: 16px 0;
 }
+
+/* inspiration part */
+.inspiration{
+    margin-top: 90px;
+}
+.inspitation-header h3{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.inspitation-header p{
+font-size: 16px;
+line-height: 26px;
+color: #0D1321;
+padding-top: 24px;
+}
+.iframe{
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid rgba(13,19,33,20%);
+    margin-top: 48px;
+    
+}
+/* current target */
+
