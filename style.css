@@ -86,4 +86,81 @@
 /* main part */
 .main-width{
     max-width: 1140px;
+    margin: auto;
+}
+.development{
+    margin-top: 74px; ;
+    padding: 80px  97px;
+    background-color: rgba(13, 19, 33, 2%);
+}
+.development .development-header-content h3{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.development .development-header-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    margin: 24px 0;
+}
+
+.development .first-flex{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding: 48px;
+    background-color: #FFFFFF;
+
+}
+.development .first-flex .first-flext-content{
+    width: 477px;
+}
+.development .first-flex h4{
+    font-size: 24px;
+    font-weight: 36px;
+    color: #0D1321;
+    line-height: 36px;
+    width: 390px;
+    opacity: 70%;
+    font-weight: bold;
+}
+.development .first-flex p{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    padding: 16px 0;
+}
+.development  .development-btn{
+    padding: 12px 20px ;
+    border: 1px solid #0D1321;
+    opacity: 70%;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 10;
+    margin: 16px 0;
+}
+.second-flex{
+    display: flex;
+   justify-content: center;
+   background-color: #FFFFFF;
+   margin-top: 48px;
+}
+.second-flex h4{
+    font-size: 24px;
+    font-weight: 36px;
+    color: #0D1321;
+    line-height: 36px;
+    width: 477px;
+    font-weight: bold;
+    opacity: 70%;
+    padding: 16px 0;
+}
+.second-flex p{
+    line-height: 26px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+    padding: 16px 0;
 }
