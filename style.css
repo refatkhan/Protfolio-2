@@ -2,29 +2,34 @@
 
 
 .azeret-mono-normal {
-  font-family: "Azeret Mono", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+    font-family: "Azeret Mono", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
-.text-center{
+
+.text-center {
     text-align: center;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-evenly;
     margin: 38px 0;
     align-items: center;
 }
-.navbar h3{
+
+.navbar h3 {
     font-size: 28px;
     font-weight: bolder;
     color: #0D1321;
 }
-.navbar .btn{
+
+.navbar .btn {
     border: 1px solid #0D1321;
     border-radius: 8px;
     color: #0D1321;
@@ -33,11 +38,13 @@
     font-weight: 600;
     cursor: pointer;
 }
-.navbar .btn:hover{
+
+.navbar .btn:hover {
     background-color: #0D1321;
     color: #ffffff;
 }
-.banner{
+
+.banner {
     background-image: url(./assets/Hero-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,67 +52,79 @@
     width: 100%;
 
 }
-.banner-content{
+
+.banner-content {
     width: 998px;
     margin: auto;
-    
+
 }
-.banner-content .banner-image img{
+
+.banner-content .banner-image img {
     margin-top: 40px;
 }
-.banner-content .banner-head{
+
+.banner-content .banner-head {
     font-size: 48px;
-    font-weight:800 ;
+    font-weight: 800;
     color: #0D1321;
     padding-top: 32px;
     padding-bottom: 24px;
 }
-.banner-content .banner-description{
+
+.banner-content .banner-description {
     font-size: 16px;
     color: #0D1321;
     padding-bottom: 24px;
 }
-.banner-content .banner-btn{
+
+.banner-content .banner-btn {
     margin-top: 32px;
 }
-.banner-content .banner-btn a{
+
+.banner-content .banner-btn a {
     text-decoration: none;
     background-color: #0D1321;
     color: #ffffff;
-    padding: 24px 21px ;
+    padding: 24px 21px;
     border: 1px solid #0D1321;
     border-radius: 8px;
     font-size: 20px;
     font-weight: 600;
 
 }
-.banner-content .banner-btn a:hover{
+
+.banner-content .banner-btn a:hover {
     background-color: #ffffff;
     color: #0D1321;
 }
+
 /* main part */
-.main-width{
+.main-width {
     max-width: 1140px;
     margin: auto;
 }
-.development{
-    margin-top: 74px; ;
-    padding: 80px  97px;
+
+.development {
+    margin-top: 74px;
+    ;
+    padding: 80px 97px;
     background-color: rgba(13, 19, 33, 2%);
 }
-.development .development-header-content h3{
+
+.development .development-header-content h3 {
     font-size: 32px;
     font-weight: 800;
     color: #0D1321;
 }
-.development .development-header-content p{
+
+.development .development-header-content p {
     font-size: 16px;
     font-weight: 400;
     color: #0D1321;
     margin: 24px 0;
 }
 
-.development .first-flex{
+.development .first-flex {
     display: flex;
     justify-content: space-between;
     margin-top: 48px;
@@ -113,10 +132,12 @@
     background-color: #FFFFFF;
 
 }
-.development .first-flex .first-flext-content{
+
+.development .first-flex .first-flext-content {
     width: 477px;
 }
-.development .first-flex h4{
+
+.development .first-flex h4 {
     font-size: 24px;
     font-weight: 36px;
     color: #0D1321;
@@ -125,15 +146,17 @@
     opacity: 70%;
     font-weight: bold;
 }
-.development .first-flex p{
+
+.development .first-flex p {
     line-height: 26px;
     font-size: 16px;
     font-weight: 400;
     opacity: 70%;
     padding: 16px 0;
 }
-.development  .development-btn{
-    padding: 12px 20px ;
+
+.development .development-btn {
+    padding: 12px 20px;
     border: 1px solid #0D1321;
     opacity: 70%;
     font-size: 20px;
@@ -141,15 +164,17 @@
     gap: 10;
     margin: 16px 0;
 }
-.second-flex{
+
+.second-flex {
     display: flex;
-   justify-content: center;
-   background-color: #FFFFFF;
-   margin-top: 48px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin-top: 48px;
 }
-.second-flex h4{
+
+.second-flex h4 {
     font-size: 24px;
-    font-weight: 36px;
+    /* font-weight: 36px; */
     color: #0D1321;
     line-height: 36px;
     width: 477px;
@@ -157,7 +182,8 @@
     opacity: 70%;
     padding: 16px 0;
 }
-.second-flex p{
+
+.second-flex p {
     line-height: 26px;
     font-size: 16px;
     font-weight: 400;
@@ -166,26 +192,206 @@
 }
 
 /* inspiration part */
-.inspiration{
+.inspiration {
     margin-top: 90px;
 }
-.inspitation-header h3{
+
+.inspitation-header h3 {
     font-size: 32px;
     font-weight: bolder;
     color: #0D1321;
 }
-.inspitation-header p{
-font-size: 16px;
-line-height: 26px;
-color: #0D1321;
-padding-top: 24px;
+
+.inspitation-header p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    padding-top: 24px;
 }
-.iframe{
+
+.iframe {
     padding: 32px;
     border-radius: 16px;
-    border: 1px solid rgba(13,19,33,20%);
+    border: 1px solid rgba(13, 19, 33, 20%);
     margin-top: 48px;
+
+}
+
+/* current target */
+.target{
+    margin: 151px;
+}
+.target .target-header h3 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.target .target-header p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    padding-top: 24px;
+}
+.current-target{
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
     
 }
-/* current target */
+.current-target h4{
+    font-size: 24px;
+   color: #0D1321;
+    line-height: 36px;
+    font-weight: bolder;
+    margin-top: 24px;
+}
+.current-target p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    padding-top: 8px;
+    margin-bottom: 24px;
+}
+.current-target a{
+    color: #0D1321;
+    margin-top: 24px;
+}
+.current-target .info1{
+    background-color: rgba(255, 76, 30, 5%);
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+}
 
+.current-target .info2{
+    background-color: rgba(0, 76, 232, 5%);
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+}
+.current-target .info3{
+    background-color: rgba(255, 223, 0, 5%);
+    padding: 40px;
+    border-radius: 16px;
+    width: 364px;
+}
+
+.next-target .next-target-header h3{
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+}
+.next-target .next-target-header p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #0D1321;
+    opacity: 70%;
+    margin: 24px 0;
+}
+.next-target-topic{
+    display: flex;
+    gap: 24px;
+    border: 1px solid rgba(13, 19, 33, 15%);
+    border-radius:  16px; ;
+    padding: 40px;
+    margin:24px 0;
+}
+.topic-description{
+    padding-left: 24px;
+
+}
+.topic-description h4{
+    font-size: 24px;
+    font-weight: bolder;
+    line-height: 36px;
+    color: #0D1321;
+}
+.topic-description p{
+    line-height: 26px;
+    font-size: 16px;
+    color: #0D1321;
+    padding-top: 8px;
+    margin-bottom: 24px;
+}
+.topic-description a{
+    color: #0D1321;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* support section */
+.support{
+    background-image: url(./assets/handshake.jpg);
+    background-repeat: no-repeat;
+    height: 313px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 16px;
+    margin: 64px 0;
+   
+}
+.support .support-text{
+    padding: 64px 48px;
+}
+.support .support-text h3{
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.support .support-text p{
+    line-height: 26px;
+    font-size: 16px;
+    opacity: 70%;
+    color: #FFFFFF;
+    max-width: 606px;
+    margin: auto;
+}
+.feedback {
+    display: flex;
+    justify-content: center;
+    padding: 24px;
+    gap: 16px;
+    max-width: 684px;
+    margin: auto;
+}
+input[type="text"]{
+    padding: 20px;
+    border-radius: 8px;
+    border-color: #FFFFFF;
+    width: 584px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #0D1321;
+    outline: none;
+}
+input[type="submit"]{
+    padding: 20px 17px;
+    width: 120px;
+    border-radius: 8px;
+    border: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* footer */
+.copyright-section{
+    background-color: rgba(13, 19, 33, 3%);
+    border-radius: 16px;
+    margin-top: 80px;
+}
+.copyright{
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   padding: 32px 0;
+}
+.copyright h5{
+    font-size: 20px;
+    font-weight: 600;
+    color: #0D1321;
+}
+.copyright img{
+    margin-right: 24px;
+}
